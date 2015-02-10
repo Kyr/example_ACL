@@ -6,7 +6,7 @@ module.exports = function(app) {
   var Role = app.models.Role;
   var RoleMapping = app.models.RoleMapping;
   var Team = app.models.Team;
-/*
+
   User.create([
     {username: 'John', email: 'john@doe.com', password: 'opensesame'},
     {username: 'Jane', email: 'jane@doe.com', password: 'opensesame'},
@@ -64,5 +64,4 @@ module.exports = function(app) {
       });
     });
   });
-  */
 };
